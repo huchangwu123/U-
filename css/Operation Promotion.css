@@ -1,0 +1,186 @@
+.all {
+  width: 7.2rem;
+  background-color: #eeeaea;
+  margin: auto;
+}
+/*头部*/
+.top-1 {
+  width: 6.8rem;
+  height: 0.6rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.28rem 0.2rem 0;
+  background-color: #fff;
+  border-bottom: 1px solid #e7e7e7;
+}
+.top-1 .return img {
+  width: 0.15rem;
+  height: 0.31rem;
+  vertical-align: top;
+}
+.top-1 h2 {
+  font-size: 0.34rem;
+  line-height: 0.34rem;
+  float: left;
+}
+.top-1 .xiala {
+  width: 0.15rem;
+  height: 0.1rem;
+  vertical-align: text-top;
+  float: right;
+  margin-left: 0.15rem;
+  margin-top: 0.12rem;
+}
+.top-1 .right .shezhi-1 {
+  float: right;
+  width: 0.36rem;
+  height: 0.38rem;
+  vertical-align: top;
+}
+.top-1 .right .xx-1 {
+  float: right;
+  width: 0.33rem;
+  height: 0.38rem;
+  vertical-align: top;
+  margin-right: 0.28rem;
+}
+/*标签*/
+.label {
+  background-color: #fff;
+  box-shadow: 0 1px 1px #ccc;
+}
+.label ul {
+  width: 6.9rem;
+  height: 1.81rem;
+  padding-left: 0.3rem;
+  padding-top: 0.1rem;
+}
+.label ul li {
+  float: left;
+}
+.label ul li a {
+  display: block;
+  width: 1.18rem;
+  height: 0.51rem;
+  border-radius: 0.25rem;
+  border: 1px solid #ccc;
+  color: #666;
+  font-size: 0.22rem;
+  line-height: 0.51rem;
+  text-align: center;
+  margin-right: 0.15rem;
+  margin-top: 0.3rem;
+}
+/*主体*/
+.body {
+  background-color: #fff;
+  margin-top: 0.1rem;
+}
+.body .box {
+  padding: 0.24rem 0.54rem 0 0.3rem;
+}
+.body .box ul {
+  height: 1.88rem;
+  border-bottom: 1px solid #e7e7e7;
+}
+.body .box ul li {
+  display: flex;
+  padding-bottom: 0.08rem;
+}
+.body .box ul li .tu {
+  width: 2.8rem;
+  height: 1.58rem;
+}
+.body .box ul li .wenzi {
+  width: 3.35rem;
+  margin-left: 0.2rem;
+}
+.body .box ul li .wenzi .wz1 {
+  font-size: 0.28rem;
+  line-height: 0.28rem;
+  margin-top: 0.06rem;
+}
+.body .box ul li .wenzi .wz2 {
+  width: 3.1rem;
+  color: #666;
+  position: relative;
+  font-size: 0.22rem;
+  line-height: 0.4rem;
+  margin-bottom: 0.09rem;
+  margin-top: 0.09rem;
+  height: 0.8rem;
+  overflow: hidden;
+}
+.body .box ul li .wenzi .wz2:after {
+  overflow: hidden;
+  content: '......';
+  position: absolute;
+  right:0rem;
+  bottom: 0;
+  background: #fff;
+}
+
+.body .box ul li .wenzi .bottom {
+  width: 3.1rem;
+}
+@media screen and (max-width:375px){
+  .body .box ul li .wenzi .bottom{
+    transform: scale(0.8);
+    transform-origin: left top;
+    width: 4.8rem;
+  }
+    
+}
+.body .box ul li .wenzi .bottom p {
+  color: #999;
+}
+.body .box ul li .wenzi .bottom img {
+  width: 0.24rem;
+  height: 0.24rem;
+  vertical-align: top;
+  float: left;
+}
+.body .box ul li .wenzi .bottom .zjl {
+  height: 0.24rem;
+  font-size: 0.2rem;
+  float: left;
+  margin-left: 0.1rem;
+  margin-right: 0.2rem;
+}
+.body .box ul li .wenzi .bottom .sj {
+  float: left;
+  font-size: 0.2rem;
+  margin-left: 0.06rem;
+}
+.body .jiazai {
+  display: flex;
+  justify-content: center;
+  height: 0.64rem;
+  width: 7.2rem;
+  padding-top: 0.44rem;
+  box-shadow: 0 1px 1px #ccc;
+  border-top: 1px solid #e7e7e7;
+}
+.body .jiazai img {
+  width: 0.26rem;
+  height: 0.23rem;
+}
+.body .jiazai .wz3 {
+  font-size: 0.24rem;
+  color: #666;
+  margin-left: 0.15rem;
+}
+.body .last ul {
+  border-bottom: none;
+}
+/* 底部*/
+.bottom-2 {
+  height: 1.58rem;
+  padding-top: 0.16rem;
+}
+.bottom-2 p {
+  text-align: center;
+  line-height: 0.3rem;
+  font-size: 0.16rem;
+  color: #999;
+}

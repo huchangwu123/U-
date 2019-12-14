@@ -1,0 +1,273 @@
+.all {
+  width: 7.2rem;
+  background-color: #eeeaea;
+  margin: auto;
+}
+/*头部*/
+.top-1 {
+  width: 6.8rem;
+  height: 0.6rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.28rem 0.2rem 0;
+  background-color: #fff;
+  border-bottom: 1px solid #e7e7e7;
+}
+.top-1 .return img {
+  width: 0.15rem;
+  height: 0.31rem;
+  vertical-align: top;
+}
+.top-1 h2 {
+  font-size: 0.34rem;
+  line-height: 0.34rem;
+  float: left;
+}
+.top-1 .xiala {
+  width: 0.15rem;
+  height: 0.1rem;
+  vertical-align: text-top;
+  float: right;
+  margin-left: 0.15rem;
+  margin-top: 0.12rem;
+}
+.top-1 .right .shezhi-1 {
+  float: right;
+  width: 0.36rem;
+  height: 0.38rem;
+  vertical-align: top;
+}
+.top-1 .right .xx-1 {
+  float: right;
+  width: 0.33rem;
+  height: 0.38rem;
+  vertical-align: top;
+  margin-right: 0.28rem;
+}
+.title {
+  height: 1.55rem;
+  text-align: center;
+  background-color: #fff;
+  padding: 0 0.3rem;
+}
+.title h2 {
+  font-size: 0.36rem;
+  line-height: 0.94rem;
+}
+.title .bottom {
+  width: 6.6rem;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #e7e7e7;
+  padding-bottom: 0.3rem;
+}
+.title .bottom p {
+  color: #999;
+  font-size: 0.2rem;
+}
+.title .bottom img {
+  width: 0.24rem;
+  height: 0.24rem;
+  vertical-align: top;
+}
+.title .bottom .zjl {
+  height: 0.24rem;
+  margin-left: 0.1rem;
+  margin-right: 0.2rem;
+}
+.title .bottom .sj {
+  margin-left: 0.06rem;
+}
+.title .bottom .look {
+  margin-left: 0.2rem;
+  margin-right: 0.07rem;
+}
+.title .bottom .say {
+  margin-left: 0.2rem;
+  margin-right: 0.07rem;
+}
+.body {
+  padding: 0.08rem 0.32rem 0;
+  background-color: #fff;
+}
+.body p {
+  line-height: 0.61rem;
+  font-size: 0.3rem;
+}
+.body img {
+  width: 6.4rem;
+  height: 3.4rem;
+  margin: 0.15rem 0;
+}
+.jiazai {
+  width: 6.6rem;
+  background-color: #fff;
+  padding: 0.3rem 0.3rem 0;
+}
+.jiazai .jiazaiMain {
+  width: 6.6rem;
+  height: 0.92rem;
+  border-top: 1px solid #e7e7e7;
+  position: relative;
+  padding-top: 0.6rem;
+}
+.jiazai .jiazaiMain .box {
+  width: 1.7rem;
+  display: flex;
+  position: absolute;
+  top: -0.12rem;
+  left: 2.22rem;
+  padding-left: 0.46rem;
+  background-color: #fff;
+}
+.jiazai .jiazaiMain .box p {
+  font-size: 0.24rem;
+  line-height: 0.24rem;
+  margin-left: 0.12rem;
+}
+.jiazai .jiazaiMain .box .jiazait {
+  width: 0.26rem;
+  height: 0.23rem;
+}
+.jiazai .jiazaiMain .img1 {
+  margin-left: 0.48rem;
+  width: 0.49rem;
+  height: 0.48rem;
+}
+.jiazai .jiazaiMain .img {
+  margin-left: 1.23rem;
+  width: 0.49rem;
+  height: 0.48rem;
+}
+.jiazai .fb p {
+  font-size: 0.34rem;
+}
+.jiazai .fb .biaodan {
+  width: 6.62rem;
+  margin-top: 0.24rem;
+  position: relative;
+}
+.jiazai .fb .biaodan .k {
+  width: 4.96rem;
+  height: 1.14rem;
+  border: 1px solid #e7e7e7;
+  font-size: 0.24rem;
+  line-height: 0.24rem;
+  padding-left: 0.4rem;
+}
+.jiazai .fb .biaodan .tijiao {
+  width: 1.2rem;
+  height: 1.16rem;
+  background-color: #ff6600 ;
+  position: absolute;
+  top: 0;
+  right: 0.3rem;
+  font-size: 0.3rem;
+  color: #fff;
+}
+.pinglun {
+  background-color: #fff;
+}
+.pinglun h4 {
+  font-size: 0.34rem;
+  color: #333;
+  line-height: 0.84rem;
+}
+.pinglun .comment {
+  background: url(../images/s3-6.jpg) no-repeat 0 0.26rem;
+  background-size: 0.6rem 0.6rem;
+  padding-bottom: 0.31rem;
+  width: 6.6rem;
+  border-top: 1px solid #e7e7e7;
+}
+.pinglun .comment .commentMain {
+  width: 5.8rem;
+  padding-left: 0.8rem;
+  padding-top: 0.26rem;
+}
+.pinglun .comment .commentMain .shang .span {
+  float: left;
+  font-size: 0.24rem;
+  color: #ff6600;
+}
+.pinglun .comment .commentMain .shang div {
+  float: right;
+}
+.pinglun .comment .commentMain .shang div span {
+  font-size: 0.2rem;
+  color: #999999;
+}
+.pinglun .comment .commentMain .shang div .zzz {
+  width: 0.18rem;
+  height: 0.18rem;
+  margin-top: 0.03rem;
+}
+.pinglun .comment .commentMain .shang div .xx {
+  width: 0.18rem;
+  height: 0.18rem;
+  margin-top: 0.05rem;
+}
+.pinglun .comment .commentMain .zhong {
+  margin-top: 0.18rem;
+  margin-bottom: 0.25rem;
+}
+.pinglun .comment .commentMain .zhong .time {
+  width: 0.18rem;
+  height: 0.18rem;
+  margin-top: 0.02rem;
+}
+.pinglun .comment .commentMain .zhong span {
+  font-size: 0.2rem;
+  color: #999999;
+}
+.pinglun .comment .commentMain p {
+  font-size: 0.24rem;
+  color: #666;
+  line-height: 0.24rem;
+}
+.correlation {
+  width: 6.6rem;
+  background: #fff;
+  margin: 0 auto;
+  padding: 0 0.3rem;
+  margin-bottom: 0.1rem;
+  box-shadow: 0 1px 1px #cccccc;
+}
+.correlation h3 {
+  font-size: 0.34rem;
+  color: #333;
+  line-height: 0.8rem;
+}
+.correlation ul {
+  border-top: 1px solid #eeeaea;
+  padding-top: 0.25rem;
+  padding-bottom: 0.26rem;
+}
+.correlation ul li {
+  width: 2rem;
+  margin-left: 0.3rem;
+  float: left;
+}
+.correlation ul li img {
+  width: 2rem;
+  height: 1.13rem;
+}
+.correlation ul li p {
+  font-size: 0.24rem;
+  color: #666;
+  line-height: 0.39rem;
+}
+.correlation ul .li1 {
+  margin-left: 0;
+}
+/* 底部*/
+.bottom-2 {
+  height: 1.58rem;
+  padding-top: 0.16rem;
+}
+.bottom-2 p {
+  text-align: center;
+  line-height: 0.3rem;
+  font-size: 0.16rem;
+  color: #999;
+}
